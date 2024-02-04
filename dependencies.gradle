@@ -46,7 +46,6 @@ configurations {
     testRuntimeClasspath.extendsFrom(transformedMod)
 }
 dependencies {
-
     //Dev-only deps
     compileOnly("org.projectlombok:lombok:[1.18.24,1.19)") {
         transitive = false
